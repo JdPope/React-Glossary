@@ -1,67 +1,101 @@
 # React Glossary
 
-### npm
+
+
+#### npm
+
 
 package.json
 
+
 npm install
+
 
 node
 
-### framework
 
-### react
+#### framework
 
-### JSX
 
-declarative vs. imperative(style of programming)
+#### react
 
-### virtual DOM
+
+#### virtual DOM
+
 
 Babel
 
+
 Webpack
 
-npm start
+
+#### JSX
+
+
+declarative vs. imperative(style of programming)
+
 
 component chain
 
+
 export default
 
-### arrow functions in React
 
-### the Ternary in React
+#### component
 
-### dynamic vs static components
-
-the recursive component
 
 modular code
 
-### props
+
+#### dynamic vs static components
+
+
+#### props
+
 
 default props
 
+
 callback function
 
-### state
+
+the recursive component
+
+
+#### arrow functions in React
+
+
+the ternary in React
+
+
+#### state
+
 
 initial state
 
+
 this.setState()
+
 
 previous state
 
-### synthetic events
+
+#### synthetic events
+
 
 event pooling
 
+
 supported events
+
 
 event bubbling vs capturing
 
-### controlled form
+
+#### controlled form
+
 
 onChange
+
 
 onSubmit
