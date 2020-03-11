@@ -19,7 +19,7 @@ A standardized way of creating and deploying web applications.
 A JS framework with a specific way for designing and structuring a JS app, it offers both performance and composition benefits through its virtual DOM and JS extension, JSX.
 
 ### virtual DOM
-The virtual DOM is a programming concept where an ideal("virtual") representation of a UI is kept in memory and synched with the real DOM. This is what enables React to be declarative meaning you can tell React what you want the UI to look like (the virtual DOM) and it will make the actual DOM match it without you having to do the manual DOM manipulation required in vanilla J.S. 
+The virtual DOM is a programming concept where an ideal("virtual") representation of a UI is kept in memory and synched with the real DOM. This is what enables React to be declarative meaning you can tell React what you want the UI to look like (the virtual DOM) and it will make the actual DOM match it without you having to do the manual DOM manipulation required in vanilla J.S.
 
 ### Babel
 A transpiler that converts JSX into vanilla JS.
@@ -81,9 +81,6 @@ Data that is mutated in a component's life. Through the use of state, we can upd
 
 ### this.setState()
 A built in function used to update state in a *non-blocking* manner and alert React to re-render. This.setState() is asynchronous and waits for the component to finish performing its task before updating state. That this built in function alerts React of a change in state and therefore a need for a re-render is in contrast to the inefficient process of "dirty checking" which runs checks for changes of state instead of being alerted. Dirty checking is practiced by Angular, a rival framework
-
-### previous state
-A way of referencing the state
 
 ### synthetic events
 An api wrapper which enables React to standardize how events are handles across all browsers.

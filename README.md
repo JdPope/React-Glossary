@@ -78,9 +78,6 @@ the ternary in React
 this.setState()
 
 
-previous state
-
-
 ### synthetic events
 
 
