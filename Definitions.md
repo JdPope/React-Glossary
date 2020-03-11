@@ -16,22 +16,23 @@ A JS runtime, allowing JavaScript to be run locally on your computer, instead of
 A standardized way of creating and deploying web applications.
 
 ### React
-A JS framework with a specific way for designing and structuring a JS app, it offers both performance and composition benefits through its virtual DOM and JS extension, JSX. 
+A JS framework with a specific way for designing and structuring a JS app, it offers both performance and composition benefits through its virtual DOM and JS extension, JSX.
 
 ### virtual DOM
 
 
 ### Babel
+A transpiler that converts JSX into vanilla JS.
 
 
 ### Webpack
 
 
 ### JSX
-
+An extension of vanilla JS similar to html, it follows a declarative writing structure meaning you can express what you want the UI to look like and JSX will take care of the rest.
 
 ### declarative vs. imperative(style of programming)
-
+To write imperative code is to write how something is done in detail(written *explicit* steps). Declarative means you write what you would *like* to do. Most JS is imperative. React is considered declarative because you can create the structure of the UI without giving it the explicit commands necessary for DOM manipulation in traditional JS.
 
 ### component chain
 
