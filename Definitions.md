@@ -51,7 +51,7 @@ The practice of linking files through importing and exporting.
 We export to allow other files to import a files contents. Export default lets us denote that whatever follows that statement is the main thing we want to export.
 
 ### dynamic vs static components
-
+A static component - also known  as a presentational or stateless component - is a component whose sole responsibility is rendering data passed down from the parent. A dynamic component may or may not include state, but does allow for user interactivity. 
 
 ### props
 Props - short for "properties" - are reusable values that are passed down from a parent component to a child component. Props can be any datatype.
@@ -73,7 +73,8 @@ Three main constructs are required to implement recursion with a component:
 By using the arrow function, we implicitly bind a method to our class, thus preventing *this* from changing value and causing bugs when we use callbacks.
 
 ### the ternary in React
-
+A method for conditionally rendering elements inline.
+Its basic syntax is condition ? true : false.
 
 ### state
 Data that is mutated in a component's life. Through the use of state, we can update and maintain information within a component instead of having to rely on a parent.
