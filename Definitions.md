@@ -24,7 +24,6 @@ A JS framework with a specific way for designing and structuring a JS app, it of
 ### Babel
 A transpiler that converts JSX into vanilla JS.
 
-
 ### Webpack
 
 
@@ -32,10 +31,10 @@ A transpiler that converts JSX into vanilla JS.
 An extension of vanilla JS similar to html, it follows a declarative writing structure meaning you can express what you want the UI to look like and JSX will take care of the rest.
 
 ### declarative vs. imperative(style of programming)
-To write imperative code is to write how something is done in detail(written *explicit* steps). Declarative means you write what you would *like* to do. Most JS is imperative. React is considered declarative because you can create the structure of the UI without giving it the explicit commands necessary for DOM manipulation in traditional JS.
+To write imperative code is to write how something is done in detail(written *explicit* steps). Declarative means you write what you would *like* to do. Most vanilla JS is imperative. React is considered declarative because you can create the structure of the UI without giving it the explicit commands necessary for DOM manipulation in traditional JS.
 
 ### component
-Components modularize both functionality and presentation in our code, letting us split the UI into independent, resuable pieces that let's us think about each piece in isolation. 
+Components modularize both functionality and presentation in our code, letting us split the UI into independent, resuable pieces that let's us think about each piece in isolation.
 
 ### component chain
 The practice of linking files through importing and exporting.
@@ -44,16 +43,20 @@ The practice of linking files through importing and exporting.
 We export to allow other files to import a files contents. Export default lets us denote that whatever follows that statement is the main thing we want to export.
 
 ### modular code
-
+Code that is separated into separate files with each module being responsible for a single feature or functionality. Reasons you would want to separate your code into modules:
+- adhere to the single responsibility principle
+- easier to navigate
+- easier to debug
+- produces clean and DRY code (DRY - Don’t Repeat Yourself vs. WET - Write Everything Twice)
 
 ### dynamic vs static components
 
 
 ### props
-
+Props - short for "properties" - are reusable values that are passed down from a parent component to a child component. Props can be any datatype.
 
 ### default props
-
+A prop value assigned by the component responsible for rendering the props in the case that the props it receives are not what is expected and/or wanted. Default props should be used in the child component as opposed to conditional logic in the parent component passing the props to adhere to the single responsibility principle.
 
 ### callback function
 
