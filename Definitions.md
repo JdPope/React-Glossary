@@ -82,13 +82,13 @@ Data that is mutated in a component's life. Through the use of state, we can upd
 A built in function used to update state in a *non-blocking* manner and alert React to re-render. This.setState() is asynchronous and waits for the component to finish performing its task before updating state. That this built in function alerts React of a change in state and therefore a need for a re-render is in contrast to the inefficient process of "dirty checking" which runs checks for changes of state instead of being alerted. Dirty checking is practiced by Angular, a rival framework
 
 ### previous state
-
+A way of referencing the state
 
 ### synthetic events
-
+An api wrapper which enables React to standardize how events are handles across all browsers.
 
 ### event pooling
-
+Event Pooling is a performance increase that allows for synthetic event objects to be re-used by nullifying all values when the callback is invoked by an event. Whenever an event fires, the event's object is sent to a callback and "scrubbed" up for later use. This prevents you from accessing the event in an asynchronous way, however if you would like to, you can save it to a variable or call event.persist().
 
 ### supported events
 
@@ -97,9 +97,9 @@ A built in function used to update state in a *non-blocking* manner and alert Re
 
 
 ### controlled form
-
+Unlike uncontrolled forms which can only have static display values passed down from a parent as props, a controlled form sets default values in state and derives its input values from state thus granting us control to render and restrict our inputs in time with the user.
 
 ### onChange
-
+a built-in event which invokes an anonymous function that takes in the event which contains data on whatever DOM element was triggered on. It is heavily employed in a controlled form to show live updates for what the user is inputting by making a an input field its target: it is triggered when ever the user strikes a key.
 
 ### onSubmit
