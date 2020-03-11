@@ -62,7 +62,7 @@ callback function
 the recursive component
 
 
-### arrow functions in React
+arrow functions in React
 
 
 the ternary in React
