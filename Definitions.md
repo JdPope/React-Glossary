@@ -63,19 +63,20 @@ A prop value assigned by the component responsible for rendering the props in th
 Generally speaking, a callback function is a function passed into another function as an argument. In the context of React, we send a callback function down from a parent component as props to a child. When the callback is invoked (an action), it can send data or change state in the parent component that owns it. The parent can then share that data with all of its children - including any siblings of the component that received the callback. Hence, what we mean by data down, actions up.
 
 ### the recursive component
-
+A component that calls itself. Recursion is an example of a tree problem - the flow and logic resemble a tree structure.
+Three main constructs are required to implement recursion with a component:
+1. The seeder  - the initial value received as props
+2. the invariant - the separate method that allows the component to call itself
+3. the base case - this is the point at which the function should cease recursion (otherwise we’d overwhelm the call stack)
 
 ### arrow functions in React
-
+By using the arrow function, we implicitly bind a method to our class, thus preventing *this* from changing value and causing bugs when we use callbacks.
 
 ### the ternary in React
 
 
 ### state
-
-
-### initial state
-
+Data that is mutated in a component's life. Through the use of state, we can update and maintain information within a component instead of having to rely on a parent.
 
 ### this.setState()
 

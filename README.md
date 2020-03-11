@@ -75,9 +75,6 @@ the ternary in React
 ### state
 
 
-initial state
-
-
 this.setState()
 
 
