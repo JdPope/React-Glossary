@@ -19,13 +19,13 @@ A standardized way of creating and deploying web applications.
 A JS framework with a specific way for designing and structuring a JS app, it offers both performance and composition benefits through its virtual DOM and JS extension, JSX.
 
 ### virtual DOM
-
+The virtual DOM is a programming concept where an ideal("virtual") representation of a UI is kept in memory and synched with the real DOM. This is what enables React to be declarative meaning you can tell React what you want the UI to look like (the virtual DOM) and it will make the actual DOM match it without you having to do the manual DOM manipulation required in vanilla J.S. 
 
 ### Babel
 A transpiler that converts JSX into vanilla JS.
 
 ### Webpack
-
+An open-source JavaScript module bundler.
 
 ### JSX
 An extension of vanilla JS similar to html, it follows a declarative writing structure meaning you can express what you want the UI to look like and JSX will take care of the rest.
@@ -51,7 +51,7 @@ The practice of linking files through importing and exporting.
 We export to allow other files to import a files contents. Export default lets us denote that whatever follows that statement is the main thing we want to export.
 
 ### dynamic vs static components
-A static component - also known  as a presentational or stateless component - is a component whose sole responsibility is rendering data passed down from the parent. A dynamic component may or may not include state, but does allow for user interactivity. 
+A static component - also known  as a presentational or stateless component - is a component whose sole responsibility is rendering data passed down from the parent. A dynamic component may or may not include state, but does allow for user interactivity.
 
 ### props
 Props - short for "properties" - are reusable values that are passed down from a parent component to a child component. Props can be any datatype.
