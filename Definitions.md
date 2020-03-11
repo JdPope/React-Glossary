@@ -33,14 +33,6 @@ An extension of vanilla JS similar to html, it follows a declarative writing str
 ### declarative vs. imperative(style of programming)
 To write imperative code is to write how something is done in detail(written *explicit* steps). Declarative means you write what you would *like* to do. Most vanilla JS is imperative. React is considered declarative because you can create the structure of the UI without giving it the explicit commands necessary for DOM manipulation in traditional JS.
 
-### component
-Components modularize both functionality and presentation in our code, letting us split the UI into independent, resuable pieces that let's us think about each piece in isolation.
-
-### component chain
-The practice of linking files through importing and exporting.
-
-### export default
-We export to allow other files to import a files contents. Export default lets us denote that whatever follows that statement is the main thing we want to export.
 
 ### modular code
 Code that is separated into separate files with each module being responsible for a single feature or functionality. Reasons you would want to separate your code into modules:
@@ -48,6 +40,15 @@ Code that is separated into separate files with each module being responsible fo
 - easier to navigate
 - easier to debug
 - produces clean and DRY code (DRY - Don’t Repeat Yourself vs. WET - Write Everything Twice)
+
+### component
+Components modularize both functionality and presentation in our code, letting us split the UI into independent, reusable pieces, freeing us to think about each piece in isolation.
+
+### component chain
+The practice of linking files through importing and exporting.
+
+### export default
+We export to allow other files to import a files contents. Export default lets us denote that whatever follows that statement is the main thing we want to export.
 
 ### dynamic vs static components
 
