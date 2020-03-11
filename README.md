@@ -17,10 +17,10 @@ node
 ### framework
 
 
-#### react
+### react
 
 
-#### virtual DOM
+### virtual DOM
 
 
 Babel
@@ -29,7 +29,7 @@ Babel
 Webpack
 
 
-#### JSX
+### JSX
 
 
 declarative vs. imperative(style of programming)
@@ -41,16 +41,16 @@ component chain
 export default
 
 
-#### component
+### component
 
 
 modular code
 
 
-#### dynamic vs static components
+### dynamic vs static components
 
 
-#### props
+### props
 
 
 default props
@@ -62,13 +62,13 @@ callback function
 the recursive component
 
 
-#### arrow functions in React
+### arrow functions in React
 
 
 the ternary in React
 
 
-#### state
+### state
 
 
 initial state
@@ -80,7 +80,7 @@ this.setState()
 previous state
 
 
-#### synthetic events
+### synthetic events
 
 
 event pooling
@@ -92,7 +92,7 @@ supported events
 event bubbling vs capturing
 
 
-#### controlled form
+### controlled form
 
 
 onChange
