@@ -100,7 +100,7 @@ Event bubbling is when an event is first captured and handled by the inside elem
 Unlike uncontrolled forms which can only have static display values passed down from a parent as props, a controlled form sets default values in state and derives its input values from state thus granting us control to render and restrict our inputs in time with the user.
 
 ### onChange
-a built-in event which invokes an anonymous function that takes in the event which contains data on whatever DOM element was triggered on. It is heavily employed in a controlled form to show live updates for what the user is inputting by making a an input field its target: it is triggered when ever the user strikes a key.
+a built-in event which invokes an anonymous function that takes in the event as an argument. It is heavily employed in a controlled form to show live updates for what the user is inputting by making a an input field its target: it is triggered when ever the user strikes a key.
 
 ### onSubmit
-A built-in event which invokes an anonymous function whenever a user hits enter/clicks submit. The anonymous function will then call function for handling the submit event.
+A built-in event which invokes an anonymous function whenever a user hits enter/clicks submit. The anonymous function will then call a function for handling the submit event.
