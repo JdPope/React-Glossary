@@ -1,26 +1,22 @@
-React Glossary
+#React Glossary
 
-NPM
+###npm
 
 package.json
 
 npm install
 
-Node
+node
 
-Framework
+###framework
 
-React
+###react
 
-JSX
+###JSX
 
-Declarative vs. Imperative(style of programming)
+declarative vs. imperative(style of programming)
 
-Components
-
-Virtual DOM
-
-Declarative Writing Structure
+###virtual DOM
 
 Babel
 
@@ -28,54 +24,44 @@ Webpack
 
 npm start
 
-Component Chain
+component chain
 
-Export Default
+export default
 
-Arrow Functions in React
+###arrow functions in React
 
-the Ternary in React
+###the Ternary in React
 
-Dynamic vs Static
+###dynamic vs static components
 
-the Recursive Component
+the recursive component
 
-Modular Code
+modular code
 
-Props
+###props
 
-Default Props
+default props
 
-Callback Function
+callback function
 
-State
+###state
 
-Initial State
-
-Constructor
-
-Super
+initial state
 
 this.setState()
 
-Previous State
+previous state
 
-Synthetic Events
+###synthetic events
 
-Event Pooling
+event pooling
 
-Supported Events
+supported events
 
-Event Bubbling vs Capturing
+event bubbling vs capturing
 
-Controlled From
+###controlled form
 
 onChange
 
 onSubmit
-
-
-
-
-
-
