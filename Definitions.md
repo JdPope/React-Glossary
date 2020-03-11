@@ -79,7 +79,7 @@ By using the arrow function, we implicitly bind a method to our class, thus prev
 Data that is mutated in a component's life. Through the use of state, we can update and maintain information within a component instead of having to rely on a parent.
 
 ### this.setState()
-
+A built in function used to update state in a *non-blocking* manner and alert React to re-render. This.setState() is asynchronous and waits for the component to finish performing its task before updating state. That this built in function alerts React of a change in state and therefore a need for a re-render is in contrast to the inefficient process of "dirty checking" which runs checks for changes of state instead of being alerted. Dirty checking is practiced by Angular, a rival framework
 
 ### previous state
 
