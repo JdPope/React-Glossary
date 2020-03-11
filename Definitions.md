@@ -103,3 +103,4 @@ Unlike uncontrolled forms which can only have static display values passed down 
 a built-in event which invokes an anonymous function that takes in the event which contains data on whatever DOM element was triggered on. It is heavily employed in a controlled form to show live updates for what the user is inputting by making a an input field its target: it is triggered when ever the user strikes a key.
 
 ### onSubmit
+A built-in event which invokes an anonymous function whenever a user hits enter/clicks submit. The anonymous function will then call function for handling the submit event. 
