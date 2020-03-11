@@ -39,13 +39,13 @@ Webpack
 declarative vs. imperative(style of programming)
 
 
+### component
+
+
 component chain
 
 
 export default
-
-
-### component
 
 
 modular code
