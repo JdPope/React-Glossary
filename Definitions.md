@@ -91,10 +91,10 @@ An api wrapper which enables React to standardize how events are handles across 
 Event Pooling is a performance increase that allows for synthetic event objects to be re-used by nullifying all values when the callback is invoked by an event. Whenever an event fires, the event's object is sent to a callback and "scrubbed" up for later use. This prevents you from accessing the event in an asynchronous way, however if you would like to, you can save it to a variable or call event.persist().
 
 ### supported events
-
+Events with built-in React handlers that are triggered by an event in the bubbling phase. Here is a list of built-in event handlers: https://reactjs.org/docs/events.html#supported-events
 
 ### event bubbling vs capturing
-
+Event bubbling is when an event is first captured and handled by the inside element before before propagated to the outside elements. Event capturing (aka trickling) is when the event is first captured by the outermost element and the propagated to the inner most element. Trickle down, bubble up.
 
 ### controlled form
 Unlike uncontrolled forms which can only have static display values passed down from a parent as props, a controlled form sets default values in state and derives its input values from state thus granting us control to render and restrict our inputs in time with the user.
@@ -103,4 +103,4 @@ Unlike uncontrolled forms which can only have static display values passed down 
 a built-in event which invokes an anonymous function that takes in the event which contains data on whatever DOM element was triggered on. It is heavily employed in a controlled form to show live updates for what the user is inputting by making a an input field its target: it is triggered when ever the user strikes a key.
 
 ### onSubmit
-A built-in event which invokes an anonymous function whenever a user hits enter/clicks submit. The anonymous function will then call function for handling the submit event. 
+A built-in event which invokes an anonymous function whenever a user hits enter/clicks submit. The anonymous function will then call function for handling the submit event.
