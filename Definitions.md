@@ -56,6 +56,9 @@ A static component - also known  as a presentational or stateless component - is
 ### props
 Props - short for "properties" - are reusable values that are passed down from a parent component to a child component. Props can be any datatype.
 
+### prop drilling
+Data is passed from a component higher in the app hierarchy to a child component further down. It allows access to state at different levels of the component hierarchy.
+
 ### default props
 A prop value assigned by the component responsible for rendering the props in the case that the props it receives are not what is expected and/or wanted. Default props should be used in the child component as opposed to conditional logic in the parent component passing the props to adhere to the single responsibility principle.
 
